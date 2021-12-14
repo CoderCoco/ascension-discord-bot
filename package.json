@@ -1,0 +1,35 @@
+{
+  "name": "ascension-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot says things in discord xD",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "ts-node -P ./tsconfig.json ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderCoco/ascension-discord-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "typescript"
+  ],
+  "author": "CoderCoco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderCoco/ascension-discord-bot/issues"
+  },
+  "homepage": "https://github.com/CoderCoco/ascension-discord-bot#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1"
+  }
+}
